@@ -407,9 +407,9 @@ PrefabInstance:
       propertyPath: m_WarningMessage
       value: "\nBinding warning: Some generic clip(s) animate transforms that are
         already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform 'mixamorig:RightArm'\n\tTransform
-        'mixamorig:LeftHandMiddle1'\n\tTransform 'mixamorig:LeftHandRing1'\n\tTransform
-        'mixamorig:LeftArm'\n\tTransform 'mixamorig:RightHand'\n\tTransform 'mixamorig:LeftHandThumb1'\n\tTransform
+        by Humanoid clips.\n\tTransform 'mixamorig:LeftHandThumb1'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
+        'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftHandMiddle1'\n\tTransform
+        'mixamorig:LeftHandRing1'\n\tTransform 'mixamorig:LeftArm'\n\tTransform 'mixamorig:RightHand'\n\tTransform
         'mixamorig:LeftForeArm'\n\tTransform 'mixamorig:RightForeArm'\n\tTransform
         'mixamorig:LeftHandPinky1'\n\tand more ...\n\tFrom animation clip 'New Animation1'"
       objectReference: {fileID: 0}
@@ -420,6 +420,22 @@ PrefabInstance:
     - target: {fileID: 7992580012536702362, guid: 00e62afbe40c9294c9b004840538115d, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.576
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992580012536702362, guid: 00e62afbe40c9294c9b004840538115d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992580012536702362, guid: 00e62afbe40c9294c9b004840538115d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992580012536702362, guid: 00e62afbe40c9294c9b004840538115d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992580012536702362, guid: 00e62afbe40c9294c9b004840538115d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
